@@ -21,11 +21,11 @@ if (b**2 -4*a*c) > 0:
         print(f"Ae^({m1}x) + Be^({m2}x)")
     
 elif int(b**2 -4*a*c) == 0:
-    m=(b**2 -4*a*c)/(2*a)
-    if int(m) == 0:
+    m1,m2=quadratic_formula(a,b,c)
+    if int(m1) == 0:
         print("A+Bx")
     else:
-        print(f"(A+Bx)e^{m}x")
+        print(f"(A+Bx)e^{m1}x")
 
 elif (b**2 -4*a*c) < 0:
     m,n=quadratic_complex_formula(a,b,c)
