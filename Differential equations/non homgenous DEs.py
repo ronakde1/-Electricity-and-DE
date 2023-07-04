@@ -1,7 +1,7 @@
 a=int(input("Enter the value of y "))
 b=int(input("Enter the value of dy/dx "))
 c=int(input("Enter the value of d2y/dx2 "))
-
+print("Enter 0 if no value for each")
 Y2=int(input("Enter value of x^2 coefficient "))
 Y1=int(input("Enter value of x coefficient "))
 Y0=int(input("Enter value of constant "))
